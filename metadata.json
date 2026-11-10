@@ -1,0 +1,6 @@
+{
+  "name": "Majalisar Ruhu Mai Tsarki Outreach Ministries",
+  "description": "Official portal for Majalisar Ruhu Mai Tsarki Outreach Ministries (Holy Ghost Parliament Nigeria) and the Bauchi State Christian Leaders Forum (Kingdom Politics).",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

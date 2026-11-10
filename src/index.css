@@ -1,0 +1,76 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    /* 60% Dominant Neutral Canvas */
+    --color-canvas: #FAF9F6;
+    --color-surface: #FFFFFF;
+    --color-surface-subtle: #F4F1EA;
+    --color-border: #E7E3DA;
+    --color-text-main: #18161B;
+    --color-text-muted: #666170;
+
+    /* 30% Structural Secondary (Globe Royal Indigo / Deep Midnight) */
+    --color-indigo-globe: #231C64;
+    --color-indigo-dark: #171247;
+    --color-indigo-light: #322A84;
+    --color-indigo-soft: #EEECF8;
+
+    /* 10% Accent Intent (Golden Cross & Holy Spirit Fire) */
+    --color-gold-cross: #E89619;
+    --color-gold-hover: #D1830E;
+    --color-fire-orange: #EA580C;
+    --color-fire-red: #DC2626;
+  }
+
+  body {
+    background-color: var(--color-canvas);
+    color: var(--color-text-main);
+    font-family: 'Plus Jakarta Sans', system-ui, sans-serif;
+  }
+}
+
+.font-serif-title {
+  font-family: 'Cinzel', Georgia, serif;
+}
+
+.font-sans-body {
+  font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+}
+
+/* 60-30-10 Palette Utility Classes */
+.bg-globe-indigo {
+  background-color: #231C64;
+}
+
+.bg-globe-dark {
+  background-color: #171247;
+}
+
+.bg-globe-soft {
+  background-color: #F1EFF9;
+}
+
+.text-globe-indigo {
+  color: #231C64;
+}
+
+.text-gold-cross {
+  color: #E89619;
+}
+
+.bg-gold-cross {
+  background-color: #E89619;
+}
+
+.hover\:bg-gold-cross:hover {
+  background-color: #D1830E;
+}
+
+.border-globe-indigo {
+  border-color: #231C64;
+}
+
+.border-gold-cross {
+  border-color: #E89619;
+}
